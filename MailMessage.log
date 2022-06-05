@@ -1,0 +1,82 @@
+<html>
+<body>
+<pre style="font: Courier">
+
+SnapRAID Status GOOD (sync:0)(scrub1:0)(scrub2:0)(status:0)(warn:0)(danger:0) (REM:22)(ADD:30)(T:24) 
+Self test...
+Loading state from C:/Snapraid_11.0/SnapRAID.content...
+  592404 files
+       0 hardlinks
+       0 symlinks
+   27387 empty dirs
+Using 2288 MiB of memory for the FileSystem.
+SnapRAID status report:
+
+   Files Fragmented Excess  Wasted  Used    Free  Use Name
+            Files  Fragments  GB      GB      GB
+   38051     727    1954       -    4836    2841  63% d0
+   41368     231     796       -    2097    1886  52% d1
+  122340     250    2009       -    2094    1882  52% d2
+   34515     579    3048       -    1515    1458  51% d3
+  150298     474    8281       -    4029    2841  58% d4
+   18982     129     249       -    1581    1400  53% d5
+  167057    1527   20005   -19.4    5106    2841  64% d6
+   13742      83     200       -    4049    2840  58% d7
+    6051     141     469       -    4987    2844  63% d8
+ --------------------------------------------------------------------------
+  592404    4141   37011     0.0   30296   20837  59%
+
+
+  6%|                                                  *                   
+    |                                                  *                   
+    |                                                  *                   
+    |                                                  *                   
+    |                                                  *                   
+    |                                                  *                   
+    |                          *              *        *         *        *
+  3%|  * *  *    *   *  * *    * *  * *  * *  * * *    *  * * ** * *  * * *
+    |  * *  * *  *   *  * *    * *  * *  * *  * * *  * *  * * ** * *  * * *
+    |* * *  * *  * * *  * *    * *  * *  * *  * * *  * *  * * ** * *  * * *
+    |* * *  * *  * * *  * *    * *  * *  * *  * * *  * *  * * ** * *  * * *
+    |* * *  * *  * * *  * *    * *  * *  * *  * * *  * *  * * ** * *  * * *
+    |* * *  * *  * * *  * *    * *  * *  * *  * * *  * *  * * ** * *  * * *
+    |* * *  * *  * * *  * *    * *  * *  * *  * * *  * *  * * ** * *  * * *
+  0%|*_*_*__*_*__*_*_*__*_*____*_*__*_*__*_*__*_*_*__*_*__*_*_**_*_*__*_*_*
+    29                    days ago of the last scrub/sync                 0
+
+The oldest block was scrubbed 29 days ago, the median 13, the newest 0.
+
+No sync is in progress.
+The full array was scrubbed at least one time.
+You have 112 files with zero sub-second timestamp.
+Run the 'touch' command to set it to a not zero value.
+No rehash is in progress or needed.
+No error detected.
+SnapRAID SMART report:
+
+   Temp  Power   Error   FP Size
+      C OnDays   Count        TB  Serial        Device     Disk
+ -----------------------------------------------------------------------
+     32    628       0   5%  8.0  XXXXXXXX      /dev/pd8   d0
+     29   1678       0  84%  4.0  XXXXXXXX      /dev/pd0   d1
+     30   1679       0  84%  4.0  XXXXXXXX      /dev/pd1   d2
+     33   1819       0  19%  3.0  XXXXXXXX      /dev/pd3   d3
+     34    227       0   4% 14.0  XXXXXXXX      /dev/pd10  d4
+     32   1819       1  12%  3.0  XXXXXXXX      /dev/pd2   d5
+     37   1247       0   5%  8.0  XXXXXXXX      /dev/pd5   d6
+     36    229       0   4% 14.0  XXXXXXXX      /dev/pd7   d7
+     33    564       0  15%  8.0  XXXXXXXX      /dev/pd11  d8
+     35   1247       0   5%  8.0  XXXXXXXX      /dev/pd6   parity
+     36    953       0   5%  8.0  XXXXXXXX      /dev/pd4   2-parity
+     28    478       0  SSD  2.0  XXXXXXXX      /dev/pd9   -
+     50   1733       0  SSD  0.5  XXXXXXXX      /dev/pd12  -
+      -      -       -  n/a    -  -             /dev/pd13  -
+      -      -       -  n/a    -  -             /dev/pd14  -
+
+The FP column is the estimated probability (in percentage) that the disk
+is going to fail in the next year.
+
+Probability that at least one disk is going to fail in the next year is 99%.
+</pre>
+</body>
+</html>
