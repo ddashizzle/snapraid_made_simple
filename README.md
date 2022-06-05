@@ -88,6 +88,8 @@ The email subject will summarize the number of errors/warnings/files (as applica
 - Message begins with SnapRAID Status
 - Disk Smart Data will follow
 
+A sample email can be found in the [file MailMessage.log](MailMessage.log).
+
 ## Additional Notes:
 - The amount that is scrubbed is currently set to 3% per day. This could be modified by changing "-p 3" argument under the :RunScrubO section. I may modify this to be a user parameter in the future.
 - MailMessage.log has been provided as an example of what will be sent daily.
