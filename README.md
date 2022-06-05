@@ -1,4 +1,4 @@
-# Snapraid Made Simple
+# SnapRAID Made Simple
 Batch script to simply maintenance and daily notification of SnapRAID for Windows 10 and adjacent versions. It is being placed here in the hopes that it will be useful to others. 
 
 The original script is from https://sourceforge.net/p/snapraid/discussion/1677233/thread/c7ec47b8/
@@ -95,6 +95,7 @@ Tips on data integrity:
 If your cluster has relatively low value files that are easily replicated, or would be automatically, consider using the "exclude" feature with wildcards within SnapRAID. This can be used to exclude files by type with entire trees, such as "EXCLUDE \VirtualBox\*.log". Log files and metadata files fall heavily into this low-value category. Other data which is more critical may be unrecoverable because an hourly job updated hundreds of logs or metadata/.nfo files that really don't matter. 
 
 Binary Depencencies (you need these):
+
 rxrepl.exe
 https://sites.google.com/site/regexreplace/
 - used to strip log files of unneeded lines/rows
