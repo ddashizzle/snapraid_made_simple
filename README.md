@@ -1,5 +1,5 @@
 # SnapRAID Made Simple
-Batch script to simply maintenance and daily notification of SnapRAID for Windows 10 and adjacent versions. It is being placed here in the hopes that it will be useful to others. This implementation is intended to harden against drive failures. 
+Batch script to simplify maintenance and daily notification of SnapRAID for Windows 10 and adjacent versions. It is being placed here in the hopes that it will be useful to others. This implementation is intended to harden against drive failures. 
 
 The original script was written by Quaraxkad and was found on Source Forge: https://sourceforge.net/p/snapraid/discussion/1677233/thread/c7ec47b8/
 
