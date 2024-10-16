@@ -99,7 +99,7 @@ Aside from the SnapRAID made simple script, you may need to run a recovery of fi
 
 _You may notice that sometimes logs are created using the SnapRAID built-in function, and sometimes using console piping. If I recall correctly, sometimes the SnapRAID log function leaves out certain message types, while piping with redirection (adding the "2>&1" on the end) will capture all messages that would be displayed in the terminal/console._
 
-* Disk has failed, and a replacement disk has been inserted in its place (lets call it drive D: known as d1 within SnapRAID). We will write a log to see what is and is not recoverable. This will take a long time, so hang on, and review the .log when done for "unrecoverable" issues. This data may be gone forever :( As aside, recovering all the data this is often the easiest option if possible as you do not have to verify that data is correct after copying what is accessible.
+* Disk has failed, and a replacement disk has been inserted in its place (lets call it drive D: known as d1 within SnapRAID). We will write a log to see what is and is not recoverable. This will take a long time, so hang on, and review the .log when done for "unrecoverable" issues. This data may be gone forever :( As an aside, recovering all the data is often the easiest option (if possible/practicable for you) as you do not have to verify data is correct after copying what is accessible from the failed drive.
 ```
 snapraid -d d1 -l fixYYYYMMDD.log fix
 ```
